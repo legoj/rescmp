@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <StartArguments>/d "R03=\\tkolcm2\builds\hotfixes\XA650W2K8R2X64\R03\14\tokendump" "R04=\\tkolcm2\builds\hotfixes\XA650W2K8R2X64\R04\01\tokendump" /x "[ResDiff] IC R03B14-R04B01: " /o "\\tkolcm1\projects\hrp\IronCove\04\logs\resChk\R03B14-R04B01\" /sdv</StartArguments>
+    <StartWorkingDirectory>
+    </StartWorkingDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <StartArguments>/j "rtm=T:\enumres\ironcove\en\rtm" "hrp1=T:\enumres\ironcove\en\hrp1" "hrp2b4=T:\enumres\ironcove\en\hrp02b04" /o T:\rescmp\xRel\en /sdv /sev /sgi</StartArguments>
+  </PropertyGroup>
+</Project>
